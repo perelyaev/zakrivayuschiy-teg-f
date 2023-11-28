@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font-family: 'Inter', sans-serif;
+  --accent-font-family: 'Press Start 2P', sans-serif;
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
+  --themes-background: #FFF;
+  --themes-main-color: #000;
+  --themes-background-image: 
+    repeating-linear-gradient(90deg, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(0deg, #d3d3d3, transparent 2px),
+    linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+    --name: black;
+}

@@ -12,3 +12,90 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+#core {
+  fill: transparent;
+  transition: fill 0.3s 0.05s linear;
+}
+
+#main-body {
+  fill: transparent;
+  transition: fill 0.3s linear;
+}
+
+#contour {
+  fill: var(--themes-main-color);
+  transition: fill 0.1s linear;
+}
+
+.card__icon-button:hover #core {
+  fill: var(--themes-main-color);
+  transition: fill 0.3s linear
+}
+
+.card__icon-button:hover #main-body {
+  fill: var(--themes-main-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+.card__icon-button:active #core {
+  fill: red;
+  transition: fill 0.3s linear
+}
+
+.card__icon-button:active #main-body {
+	fill: red;
+  transition: fill 0.3s 0.05s linear;
+}
+
+.like-icon.is-liked #core {
+  fill: red;
+  transition: fill 0.3s linear
+}
+
+.like-icon.is-liked #main-body {
+  fill: red;
+  transition: fill 0.3s 0.05s linear;
+}
+
+.like-icon.is-liked #contour {
+  fill: red;
+  transition: fill 0.3s 0.06s linear;
+}
+
+.like-icon.is-liked #heart {
+  transform-origin: center;
+  animation: heart 0.3s reverse ease-in 0.1s;
+}
+
+.like-icon.is-liked #sparks {
+  animation: sparks 0.3s reverse ease-in 0.3s;
+}
+
+
+@keyframes arrow {
+  0% {
+    inset-inline-start: -20px;
+  }
+  100% {
+    inset-inline-start: -16px;
+  }
+} 
+
+@keyframes heart {
+  0% {
+    transform: scale(1)
+  }
+  100% {
+    transform: scale(1.5, 1.5)
+  }
+}
+
+@keyframes sparks {
+  0% {
+    fill: transparent;
+  }
+  100% {
+    fill: red;
+  }
+} 
