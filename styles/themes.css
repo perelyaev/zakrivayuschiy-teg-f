@@ -21,8 +21,8 @@
 :root.theme-dark {
   --main-font-family: 'Inter', sans-serif;
   --accent-font-family: 'Press Start 2P', sans-serif;
-  --normal-font-weight: 400;
-  --bold-font-weight: 700;
+  --normal-font-weight: 465;
+  --bold-font-weight: 785;
   --themes-background: #000;
   --themes-main-color: #00CC14;
   --themes-background-image: 
@@ -35,8 +35,8 @@
   :root {
     --main-font-family: 'Inter', sans-serif;
     --accent-font-family: 'Press Start 2P', sans-serif;
-    --normal-font-weight: 400;
-    --bold-font-weight: 700;
+    --normal-font-weight: 465;
+    --bold-font-weight: 785;
     --themes-background: #000;
     --themes-main-color: #00CC14;
     --themes-background-image: 
