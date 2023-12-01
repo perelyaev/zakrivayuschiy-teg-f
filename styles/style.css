@@ -37,13 +37,9 @@
   margin-inline: auto;
 }
 
-<<<<<<< HEAD
 .header__logo {
   display: block;
   text-decoration: none;
-=======
-.header__logo-title {
->>>>>>> 2d716c06d07095a1d65e7685b030bc3a8372e17f
   margin-block-start: clamp(120px, 30%, 136px);
   text-align: center;
   color: var(--themes-main-color, #000);
@@ -53,23 +49,12 @@
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 .header__title {
-=======
-.logo-title__link {
-  text-decoration: none;
-}
-
-.header__logo-subtitle {
->>>>>>> 2d716c06d07095a1d65e7685b030bc3a8372e17f
   margin-block-start: 20px;
   font-family: var(--accent-font-family);
   font-size: clamp(0.875rem, 0.2179rem + 2.8037vw, 1.4375rem);
   text-align: center;
-<<<<<<< HEAD
   text-transform: uppercase;
-=======
->>>>>>> 2d716c06d07095a1d65e7685b030bc3a8372e17f
 }
 
 .header__theme-menu {
@@ -174,13 +159,8 @@
 
 .watermark {
   position: absolute;
-<<<<<<< HEAD
   top: 25px;
   right: clamp(11px, 30%, 25px);
-=======
-  inset-block-start: 25px;
-  inset-inline-end: clamp(11px, 30%, 25px);
->>>>>>> 2d716c06d07095a1d65e7685b030bc3a8372e17f
   font-family: var(--accent-font-family);
   font-size: 14px;
   text-transform: uppercase;
@@ -190,11 +170,7 @@
 
 @supports (text-shadow: 0 -1px var(--themes-background), 1px 0 var(--themes-background), 0 1px var(--themes-background), -1px 0 var(--themes-background)) {
   .watermark {
-<<<<<<< HEAD
     text-shadow: 0 -1px var(--themes-background), 1px 0 var(--themes-background), 0 1px var(--themes-background), -1px 0 var(--themes-background);
-=======
-    -webkit-text-stroke: 1px var( --themes-background);
->>>>>>> 2d716c06d07095a1d65e7685b030bc3a8372e17f
   }
 }
 
