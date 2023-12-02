@@ -297,7 +297,6 @@
   position: relative;
   z-index: 2;
   color: inherit;
-  text-transform: uppercase;
 }
 
 .button__save {
@@ -370,3 +369,6 @@
   color: var(--themes-main-color);
 }
 
+.dialog__button .button__text {
+  text-transform: uppercase;
+}

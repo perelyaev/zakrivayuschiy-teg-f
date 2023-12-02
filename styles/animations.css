@@ -65,11 +65,11 @@
 
 .like-icon.is-liked .heart {
   transform-origin: center;
-  animation: enlargement-heart 0.3s reverse ease-in 0.1s;
+  animation: enlargement-heart 0.3s ease-in 0.1s;
 }
 
 .like-icon.is-liked .sparks {
-  animation: appearance-sparks 0.3s reverse ease-in 0.3s;
+  animation: appearance-sparks 0.3s ease-in 0.3s;
 }
 
 
