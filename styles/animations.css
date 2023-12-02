@@ -86,8 +86,11 @@
   0% {
     transform: scale(1)
   }
+  50% {
+    transform: scale(1.5)
+  }
   100% {
-    transform: scale(1.5, 1.5)
+    transform: scale(1)
   }
 }
 
@@ -95,7 +98,10 @@
   0% {
     fill: transparent;
   }
-  100% {
+  50% {
     fill: red;
+  }
+  100% {
+    fill: transparent;
   }
 } 
